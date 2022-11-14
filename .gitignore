@@ -4,3 +4,5 @@ config/databases.yml
 cache/*
 instalazioa.sh
 instalazioa.sh
+config/LDAPAuth.yml
+log/*
