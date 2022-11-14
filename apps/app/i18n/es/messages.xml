@@ -38,11 +38,11 @@
       </trans-unit>
       <trans-unit id="9">
         <source>Helbidea</source>
-        <target>Dirección</target>
+        <target>UBICACIÓN</target>
       </trans-unit>
       <trans-unit id="10">
         <source>Eraikina</source>
-        <target>Edificio</target>
+        <target>ESPACIO</target>
       </trans-unit>
       <trans-unit id="11">
         <source>Jatorrizko Saila</source>
@@ -258,7 +258,7 @@
       </trans-unit>
       <trans-unit id="67">
         <source>Barrutia</source>
-        <target>Distrito</target>
+        <target>INSTALACIÓN</target>
       </trans-unit>
       <trans-unit id="68">
         <source>Username</source>
@@ -586,7 +586,7 @@
       </trans-unit>
       <trans-unit id="162">
         <source>Auzoa</source>
-        <target>Barrio</target>
+        <target>EDIFICIO</target>
       </trans-unit>
       <trans-unit id="163">
         <source>Onartu gabe</source>

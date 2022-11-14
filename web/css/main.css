@@ -363,7 +363,7 @@ form.login fieldset .field input
 {
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
-	width: 200px;
+	width: 180px;
 }
 .panela .field input[readonly=readonly]
 {

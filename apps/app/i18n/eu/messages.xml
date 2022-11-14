@@ -16,6 +16,22 @@
         <source>The username and/or password is invalid.</source>
         <target>Erabiltzailea ala pasahitza ez da zuzena.</target>
       </trans-unit>
+      <trans-unit id="9">
+        <source>Helbidea</source>
+        <target>KOKAPENA</target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>Eraikina</source>
+        <target>ESPAZIOA</target>
+      </trans-unit>
+      <trans-unit id="162">
+        <source>Auzoa</source>
+        <target>ERAIKINA</target>
+      </trans-unit>
+      <trans-unit id="67">
+        <source>Barrutia</source>
+        <target>INSTALAZIOA</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
