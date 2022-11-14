@@ -25,7 +25,7 @@ all:
 
   mapa:
     # Google Maps erabili aplikazioan
-    aktibatuta: true
+    aktibatuta: false
     # Google Maps-ek erabiliko duen jatorria kaleen koordenadak aurkitzeko
     helbidea: 20004, Donostia-San Sebastián
     # Google Maps-en API lizentzi gakoa
@@ -33,11 +33,11 @@ all:
       default: ~
 
   # Arakatzailean eta mezuetako sinaduran azalduko den izenburua
-  izenburua: Gerkud
+  izenburua: Gerkud kirolak
   # PDF-ak inprimatzerakoan eta mezuak bidaltzerakoan azalduko den erakundea (adibidez 'Donostiako Udala')
-  erakundea: Gertakarien Kudeaketa
+  erakundea: Gertakarien Kudeaketa kirolak
   # PDF-ak inprimatzerakoan azalduko den goiburua
-  pdf_goiburua: Gertakari Zerrenda
+  pdf_goiburua: Gertakari Zerrenda Kirolak
   # Erakundearen logotipoa
   logotipoa: logoa.png
   # Oharrak bidaliko dituen jatorrizko posta helbidea
@@ -81,23 +81,23 @@ all:
       - lehentasuna
       - mota
 #      - klaseamota
-      - azpimota
-      - klasea
+#      - azpimota
+#      - klasea
 #      - arloa
       - egoera
       - saila
 #      - egoerasaila
       - langilea
-#      - barrutia
+      - barrutia
       - auzoa
-      - kalea
-      - kale_zbkia
+#      - kalea
+#      - kale_zbkia
       - eraikina
 #      - eraikinakalea
 #      - barrutiaeraikinakalealaburpena
       - hasiera_aurreikusia
       - amaiera_aurreikusia
-      - jatorrizkosaila
+#      - jatorrizkosaila
       - abisuanork
 #      - kontaktua_izena
 #      - kontaktua_abizenak
@@ -125,22 +125,27 @@ all:
       - lehentasuna
       - id
       - created_at
+      - langilea
       - mota
+      - barrutia
       - auzoa
-      - eraikinakalea
+      - eraikina
       - laburpena
       - abisuanork
 
     # Gertakariak pantailan ikusgai diren zutabe zerrenda
     gertakariak:
       - lehentasuna
-      - id
+#      - id
       - created_at
       - saila
+      - mota
+      - barrutia
       - auzoa
-      - eraikinakalea
+      - eraikina
       - laburpena
       - egoera
+      - langilea
       - abisuanork
       - updated_at
 
