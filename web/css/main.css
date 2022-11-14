@@ -157,6 +157,10 @@ textarea:focus,
 	padding: 3px;
 	border-radius: 3px;
 }
+#nav #kirol-titulua{
+	float: left;
+	margin-left: 20px;
+}
 #nav #mapa
 {
 	float: left;

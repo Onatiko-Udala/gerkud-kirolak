@@ -42,6 +42,7 @@ $botoiak = sfConfig::get('gerkud_ezarpenak_menua', array());
 	<?php if (sfConfig::get('gerkud_logotipoa')): ?>
 				<li id="logoa"><?php echo image_tag(sfConfig::get('gerkud_logotipoa'), array('alt' => 'Logo')); ?></li>
 	<?php endif; ?>
+				<li id="kirol-titulua"><h1>KIROL INZIDENTZIAK</h1></li>
 
 <?php if ($sf_user->hasCredential(array('admins', 'gerkud', 'zerbitzu', 'arrunta'), false)): ?>
 
