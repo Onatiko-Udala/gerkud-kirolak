@@ -76,11 +76,19 @@
 <?php endif; ?>
 
 <?php if ($sf_user->hasCredential(array('admins', 'gerkud'), false) || $sailakoa): ?>
-			<!-- Prozesuan jarri -->
+	<!-- Prozesuan jarri -->
 	<?php if (in_array(gertakariaActions::EKINTZA_PROZESUAN_JARRI, $ekintzak)): ?>
-		<?php if ($gertakaria->getEgoeraId() == 2 || $gertakaria->getEgoeraId() == 3): ?>
-			<a class="botoia" href="<?php echo url_for('gertakaria/egoera?id=' . $gertakaria->getId() . '&eg_id=4') ?>">
+		<?php if ($gertakaria->getEgoeraId() == 2): ?>
+			<a class="botoia" href="<?php echo url_for('gertakaria/egoera?id=' . $gertakaria->getId() . '&eg_id=3') ?>">
 				<i class="fa fa-wrench"></i><?php echo __('Prozesuan jarri'); ?>
+			</a>
+		<?php endif; ?>
+	<?php endif; ?>
+	<!-- Eginda jarri -->
+	<?php if (in_array(gertakariaActions::EKINTZA_EGINDA_MARKATU, $ekintzak)): ?>
+		<?php if ($gertakaria->getEgoeraId() == 3): ?>
+			<a class="botoia" href="<?php echo url_for('gertakaria/egoera?id=' . $gertakaria->getId() . '&eg_id=4') ?>">
+				<i class="fa fa-wrench"></i><?php echo __('Eginda markatu'); ?>
 			</a>
 		<?php endif; ?>
 	<?php endif; ?>

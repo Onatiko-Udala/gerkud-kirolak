@@ -14,6 +14,7 @@ class gertakariaActions extends sfActions
 {
 	const EKINTZA_EDITATU = 'editatu';
 	const EKINTZA_ESLEITU = 'esleitu';
+	const EKINTZA_EGINDA_MARKATU = 'eginda';
 	const EKINTZA_PROZESUAN_JARRI = 'prozesuan';
 	const EKINTZA_KOPIATU = 'kopiatu';
 	const EKINTZA_INPRIMATU = 'inprimatu';
