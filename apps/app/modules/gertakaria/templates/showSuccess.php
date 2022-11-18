@@ -399,7 +399,7 @@ $kontaktua = $gertakaria->getKontaktua();
 		<tbody>
 	<?php foreach ($gertakaria->getIruzkinak() as $i => $iruzkina): ?>
 			<tr<?php echo $iruzkina->getPublikoa() ? ' class="publikoa"' : '' ?>>
-				<td title="<?php echo __('Data'); ?>"><?php echo date(sfConfig::get('gerkud_data_formatoa'), strtotime($iruzkina->getCreated_at())); ?></td>
+				<td title="<?php echo __('Data'); ?>"><?php echo $iruzkina->getCreated_at(); ?></td>
 				<td title="<?php echo __('Nork'); ?>"><?php echo $iruzkina->getLangilea(); ?></td>
 				<td title="<?php echo __('Ekintza'); ?>"><?php echo $iruzkina->getEkintza(); ?></td>
 				<td title="<?php echo __('Iruzkina'); ?>"><?php echo $iruzkina->getTestua(); ?></td>
