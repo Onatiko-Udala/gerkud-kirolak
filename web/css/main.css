@@ -61,7 +61,7 @@ textarea:focus,
 	width: 100%;
 	font-size: x-small;
 	color: white;
-	background-color: #6699cc;
+	background-color: #7466cc;
 	z-index: 999;
 	opacity: 0.9;
 	box-shadow: 0 10px 5px grey;
@@ -84,7 +84,7 @@ textarea:focus,
 	cursor: pointer;
 	font-size: medium;
 	color: white;
-	background-color: #6699cc;
+	background-color: #7466cc;
 	box-shadow: 0 10px 5px grey;
 	position: absolute;
 	right: 0;
@@ -243,7 +243,7 @@ form.login
 	display: block;
 	color: white;
 	box-shadow: 0 0 3px #606060;
-	background-color: #6699cc;
+	background-color: #7466cc;
 	border-radius: 3px;
 	padding: 1em;
 	font-size: larger;
@@ -567,13 +567,13 @@ table th.headerSortUp
 {
 	background-image: url('../images/asc.gif');
 	color: white;
-	background-color: #6699cc;
+	background-color: #7466cc;
 }
 table th.headerSortDown
 {
 	background-image: url('../images/desc.gif');
 	color: white;
-	background-color: #6699cc;
+	background-color: #7466cc;
 }
 
 #ekintzakIreki
@@ -680,7 +680,7 @@ table th.headerSortDown
 	text-align: center;
 	font-size: xx-large;
 	color: white;
-	background-color: #6699cc;
+	background-color: #7466cc;
 	box-shadow: 0 0 3px #606060;
 	border-radius: 3px;
 	margin-top: 10%;
