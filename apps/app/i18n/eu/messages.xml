@@ -32,6 +32,10 @@
         <source>Barrutia</source>
         <target>INSTALAZIOA</target>
       </trans-unit>
+      <trans-unit id="148">
+        <source>Kalea</source>
+        <target>ESPAZIOA</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

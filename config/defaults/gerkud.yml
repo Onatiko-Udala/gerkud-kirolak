@@ -90,9 +90,9 @@ all:
       - langilea
       - barrutia
       - auzoa
-#      - kalea
+      - kalea
 #      - kale_zbkia
-      - eraikina
+#      - eraikina
 #      - eraikinakalea
 #      - barrutiaeraikinakalealaburpena
       - hasiera_aurreikusia

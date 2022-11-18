@@ -222,7 +222,7 @@
       </trans-unit>
       <trans-unit id="58">
         <source>Kaleak</source>
-        <target>Calles</target>
+        <target>ESPAZIOA</target>
       </trans-unit>
       <trans-unit id="59">
         <source>Erabiltzaileak</source>
@@ -550,7 +550,7 @@
       </trans-unit>
       <trans-unit id="148">
         <source>Kalea</source>
-        <target>Calle</target>
+        <target>ESPAZIOA</target>
       </trans-unit>
       <trans-unit id="149">
         <source>Data tartea</source>

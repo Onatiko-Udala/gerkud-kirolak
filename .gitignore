@@ -6,3 +6,4 @@ instalazioa.sh
 instalazioa.sh
 config/LDAPAuth.yml
 log/*
+plugins/sfDoctrineGuardPlugin
