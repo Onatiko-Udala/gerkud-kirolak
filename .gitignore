@@ -7,3 +7,4 @@ instalazioa.sh
 config/LDAPAuth.yml
 log/*
 plugins/sfDoctrineGuardPlugin
+.vscode/sftp.json

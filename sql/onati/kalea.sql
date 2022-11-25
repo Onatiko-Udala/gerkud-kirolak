@@ -17,6 +17,6 @@ INSERT INTO `kalea` (`id`, `izena`, `barrutia_id`, `auzoa_id`, `google`) VALUES
 	(13, 'Aldagela berriak orokorreak', 2, 7, -1.902665),
 	(14, 'Fisio gela', 2, 7, -1.900518),
 	(15, 'Taberna orokorrean', 2, 8, -1.901630),
-	(16, 'Sarrera', 2, 8, -1.903731);
+	(16, 'Sarrera 2', 2, 8, -1.903731);
 
 SET foreign_key_checks = 1;

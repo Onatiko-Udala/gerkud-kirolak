@@ -17,6 +17,6 @@ INSERT INTO `eraikina` (`id`, `izena`, `barrutia_id`, `auzoa_id`, `longitudea`, 
 	(13, 'Aldagela berriak orokorreak', 2, 7, -1.902665, 43.304892),
 	(14, 'Fisio gela', 2, 7, -1.900518, 43.312806),
 	(15, 'Taberna orokorrean', 2, 8, -1.901630, 43.312435),
-	(16, 'Sarrera', 2, 8, -1.903731, 43.311294);
+	(16, 'Sarrera 2', 2, 8, -1.903731, 43.311294);
 
 SET foreign_key_checks = 1;
