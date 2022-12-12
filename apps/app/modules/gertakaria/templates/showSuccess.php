@@ -254,7 +254,15 @@
 <?php if (in_array('abisuanork', $configEremuak)): ?>
 				<div class="field">
 					<label><?php echo __('Abisua nork'); ?>:</label>
-					<span class="luzea"><?php echo $gertakaria->getMergedAbisuaNork(); ?></span>
+					<span><?php echo $gertakaria->getMergedAbisuaNork(); ?></span>
+				</div>
+<?php endif; ?>
+			</fieldset>
+			<fieldset>
+<?php if (in_array('arduraduna', $configEremuak)): ?>
+				<div class="field">
+					<label><?php echo __('arduraduna'); ?>:</label>
+					<span class="luzea"><?php echo $gertakaria->getArduraduna();  ?></span>
 				</div>
 <?php endif; ?>
 			</fieldset>

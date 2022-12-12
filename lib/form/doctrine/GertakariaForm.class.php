@@ -178,6 +178,11 @@ class GertakariaForm extends BaseGertakariaForm
 			'required' => (in_array('abisuanork', $configDerrigorrezkoak)) ? true : false
 		));
 
+		$this->validatorSchema['arduraduna'] = new sfValidatorString(array
+		(
+			'required' => (in_array('arduraduna', $configDerrigorrezkoak)) ? true : false
+		));
+
 		$this->widgetSchema['laburpena'] = new sfWidgetFormTextarea(array
 		(
 		));

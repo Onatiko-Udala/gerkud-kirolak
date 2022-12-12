@@ -11,6 +11,7 @@
  * @property int                                  $mota_id                                   Type: integer
  * @property int                                  $azpimota_id                               Type: integer
  * @property string                               $abisuaNork                                Type: string(512)
+ * @property string                               $arduraduna                                Type: string(512)
  * @property int                                  $egoera_id                                 Type: integer, default "1"
  * @property int                                  $saila_id                                  Type: integer
  * @property int                                  $langilea_id                               Type: integer
@@ -54,6 +55,7 @@
  * @method int                                    getMotaId()                                Type: integer
  * @method int                                    getAzpimotaId()                            Type: integer
  * @method string                                 getAbisuanork()                            Type: string(512)
+ * @method string                                 getArduraduna()                            Type: string(512)
  * @method int                                    getEgoeraId()                              Type: integer, default "1"
  * @method int                                    getSailaId()                               Type: integer
  * @method int                                    getLangileaId()                            Type: integer
@@ -97,6 +99,7 @@
  * @method Gertakaria                             setMotaId(int $val)                        Type: integer
  * @method Gertakaria                             setAzpimotaId(int $val)                    Type: integer
  * @method Gertakaria                             setAbisuanork(string $val)                 Type: string(512)
+ * @method Gertakaria                             setArduraduna(string $val)                 Type: string(512)
  * @method Gertakaria                             setEgoeraId(int $val)                      Type: integer, default "1"
  * @method Gertakaria                             setSailaId(int $val)                       Type: integer
  * @method Gertakaria                             setLangileaId(int $val)                    Type: integer
@@ -168,6 +171,10 @@ abstract class BaseGertakaria extends sfDoctrineRecord
              'type' => 'string',
              'length' => 512,
              ));
+        $this->hasColumn('arduraduna', 'string', 512, array(
+             'type' => 'string',
+             'length' => 512,
+             ));     
         $this->hasColumn('egoera_id', 'integer', null, array(
              'type' => 'integer',
              'notnull' => true,

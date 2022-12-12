@@ -64,6 +64,10 @@ class eskaerakActions extends sfActions
 					$zutabea->izena = __('Abisua nork');
 					$zutabea->klasea = 'abisuanork';
 					break;
+				case 'arduraduna':
+					$zutabea->izena = __('arduraduna');
+					$zutabea->klasea = 'arduraduna';
+					break;
 				case 'kontaktua':
 					$zutabea->izena = __('Abisua nork');
 					$zutabea->klasea = 'kontaktua';
@@ -198,6 +202,9 @@ class eskaerakActions extends sfActions
 						break;
 					case 'abisuanork':
 						$balioa = $fila->getMergedAbisuaNork();
+						break;
+					case 'arduraduna':
+						$balioa = $fila->getArduraduna();
 						break;
 					case 'kontaktua':
 						$balioa = sprintf('%s %s', $fila->getKontaktua()->getIzena(), $fila->getKontaktua()->getAbizenak());

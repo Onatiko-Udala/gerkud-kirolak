@@ -162,6 +162,12 @@
 				<?php echo $form['abisuaNork']->render(array('class' => 'luzea', 'rows' => 1)); ?>
 			</div>
 <?php endif; ?>
+<?php if (in_array('arduraduna', $configEremuak)): ?>
+			<div id="arduraduna" class="field">
+				<label for="gertakaria_arduraduna"><?php echo __('arduraduna') ?>:<?php echo (in_array('arduraduna', $configDerrigorrezkoak))?'*':'' ?></label>
+				<?php echo $form['arduraduna']->render(array('class' => 'luzea', 'rows' => 1)); ?>
+			</div>
+<?php endif; ?>
 		</fieldset>
 
 		<fieldset>

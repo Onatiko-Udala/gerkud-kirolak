@@ -860,6 +860,10 @@
         <source>Herritarrari bidalitakoak</source>
         <target>Enviados al ciudadano</target>
       </trans-unit>
+      <trans-unit id="228">
+        <source>arduraduna</source>
+        <target>Responsable</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

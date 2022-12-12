@@ -99,6 +99,7 @@ all:
       - amaiera_aurreikusia
 #      - jatorrizkosaila
       - abisuanork
+      - arduraduna
 #      - kontaktua_izena
 #      - kontaktua_abizenak
 #      - kontaktua_nan
@@ -132,6 +133,9 @@ all:
       - kalea
       - laburpena
       - abisuanork
+      - arduraduna
+      - hasiera_aurreikusia
+      - amaiera_aurreikusia
 
     # Gertakariak pantailan ikusgai diren zutabe zerrenda
     gertakariak:
@@ -146,7 +150,7 @@ all:
       - laburpena
       - egoera
       - langilea
-      - abisuanork
+      - arduraduna
       - updated_at
 
   # Pantaila ezberdinetako gertakari zerrenden ordenaketa

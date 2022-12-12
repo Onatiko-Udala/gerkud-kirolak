@@ -40,6 +40,7 @@ class zerrendatuActions extends sfActions
 			array('auzoa',		__('Auzoa'),				54),
 			array('kalea',		__('Kalea') . ' / ' . __('Eraikina'),	150),
 			array('abisuanork',	__('Eskatzailea'),			80),
+			array('arduraduna',	__('arduraduna'),			80),
 			array('erabiltzailea',	__('Erabiltzailea'),			54),
 			array('irekiera_data',	__('Irekiera data'),			54),
 			array('ixte_data',	__('Ixte data'),			54)
@@ -289,7 +290,7 @@ class zerrendatuActions extends sfActions
 		 . '  END AS lehentasuna,'
 		 . '  s.name AS saila, m.izena AS mota, g.id AS kodea, e.izena AS egoera, laburpena,'
 		 . '  b.izena AS barrutia, a.izena AS auzoa, coalesce(er.izena, concat_ws(", ", k.izena, g.kale_zbkia)) AS kalea,'
-		 . '  ' . $erabiltzailea . ' AS erabiltzailea, abisuanork, coalesce(date(g.created_at), "-") AS irekiera_data, coalesce(date(ixte_data), "-") AS ixte_data,'
+		 . '  ' . $erabiltzailea . ' AS erabiltzailea, abisuanork, arduraduna, coalesce(date(g.created_at), "-") AS irekiera_data, coalesce(date(ixte_data), "-") AS ixte_data,'
 		 . '  coalesce(concat_ws("; ", nullif(concat_ws(" ", ko.izena, ko.abizenak), " "), nullif(ko.telefonoa, ""), nullif(ko.posta, ""), nullif(ko.nan, "")), abisuanork) AS abisuanork'
 		 . ' FROM gertakaria g'
 		 . '  LEFT JOIN sf_guard_user u ON u.id = g.langilea_id'

@@ -36,6 +36,10 @@
         <source>Kalea</source>
         <target>ESPAZIOA</target>
       </trans-unit>
+      <trans-unit id="228">
+        <source>arduraduna</source>
+        <target>Arduraduna</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
