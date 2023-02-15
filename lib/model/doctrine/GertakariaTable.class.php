@@ -104,7 +104,7 @@ class GertakariaTable extends Doctrine_Table
 		{
 			$lang = sfContext::getInstance()->getUser()->getguardUser()->getId();
 
-			$where = 'j.egoera_id NOT IN (5, 1, 4)';
+			$where = 'j.egoera_id NOT IN (5, 1, 6, 4)';
 
 			if (sfConfig::get('gerkud_api_saila_bakarrik'))
 			{
